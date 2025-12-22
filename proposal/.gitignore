@@ -4,6 +4,6 @@ main*.*
 
 # ignore dotfiles
 .*
-!.git*
+# !.git*
 
 indent.log
