@@ -1,8 +1,3 @@
-# Core PyTorch - install FIRST
-torch==2.5.1
-torchvision==0.20.1
-torchaudio==2.5.1
-
 # Standard packages
 accelerate==1.3.0
 datasets==3.2.0
