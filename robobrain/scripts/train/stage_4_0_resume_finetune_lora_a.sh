@@ -9,8 +9,10 @@ export VISION_MODEL_VERSION=google/siglip-so400m-patch14-384
 
 export DATA_PATH=/content/drive/MyDrive/BRIN/RoboBrain/scripts/train/yaml/stage_4_affordance.yaml
 
-export IMAGE_FOLDER=/content/drive/MyDrive/BRIN/RoboBrain/dataset/affordance/images
-export OUTPUT_DIR=/content/drive/MyDrive/BRIN/RoboBrain/checkpoints/${BASE_RUN_NAME}
+#export IMAGE_FOLDER=/content/drive/MyDrive/BRIN/RoboBrain/dataset/affordance/images
+#export OUTPUT_DIR=/content/drive/MyDrive/BRIN/RoboBrain/checkpoints/${BASE_RUN_NAME}
+export IMAGE_FOLDER=/kaggle/input/affordance-test/affordance/images
+export OUTPUT_DIR=/kaggle/working/tugas-akhir/robobrain/checkpoints/${BASE_RUN_NAME}
 
 export PROMPT_VERSION=qwen_2
 
