@@ -1,3 +1,4 @@
 datasets:
-- json_path: /content/drive/MyDrive/BRIN/RoboBrain/dataset/affordance/points.json
+# - json_path: /content/drive/MyDrive/BRIN/RoboBrain/dataset/affordance/points.json
+- json_path: /kaggle/input/affordance-test/affordance/points.json
   sampling_strategy: all
