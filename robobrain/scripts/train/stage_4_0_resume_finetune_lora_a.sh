@@ -7,7 +7,7 @@ export BASE_RUN_NAME=resume_finetune_Llava-Onevision-siglip-qwen2.5-stage-4_lora
 export PREV_STAGE_CHECKPOINT=BAAI/RoboBrain
 export VISION_MODEL_VERSION=google/siglip-so400m-patch14-384
 
-export DATA_PATH=/content/drive/MyDrive/BRIN/RoboBrain/scripts/train/yaml/stage_4_affordance.yaml
+export DATA_PATH=/kaggle/working/tugas-akhir/robobrain/scripts/train/yaml/stage_4_affordance.yaml
 
 #export IMAGE_FOLDER=/content/drive/MyDrive/BRIN/RoboBrain/dataset/affordance/images
 #export OUTPUT_DIR=/content/drive/MyDrive/BRIN/RoboBrain/checkpoints/${BASE_RUN_NAME}
